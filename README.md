@@ -68,12 +68,6 @@ Travel Crafters is a comprehensive and feature-rich Tours & Travels web applicat
 
 ---
 
-## Installation
-
-Navigate to the Project Directory
-
-cd TravelCrafters
-
 ### Clone the Repository
 
 ```bash
