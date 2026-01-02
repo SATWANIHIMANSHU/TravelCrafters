@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Button Styling */
+        .btn-book {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn-book:hover {
+            background-color: #0056b3;
+        }
+
+        /* Modal Customization */
+        .modal-content {
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .modal-title {
+            font-weight: bold;
+        }
+
+        /* Count Adjust Buttons */
+        .count-btn {
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 5px 12px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .count-btn:hover {
+            background-color: #ddd;
+        }
+
+        /* Total Amount Styling */
+        #totalAmount {
+            font-size: 22px;
+            font-weight: bold;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body class="text-center p-5">
+
+    <!-- BOOK NOW Button -->
+    <button class="btn btn-book" data-bs-toggle="modal" data-bs-target="#bookingModal">BOOK NOW</button>
+
+    <!-- Booking Modal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book Your Trip</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Select Travel Date -->
+                    <label><strong>Select Travel Date</strong></label>
+                    <input type="date" id="travelDate" class="form-control mb-3" required>
+
+                    <!-- Passenger Details -->
+                    <h6><strong>Passengers</strong></h6>
+                    
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <label class="me-2">Adults:</label>
+                        <button class="count-btn" onclick="changeCount('adult', -1)">-</button>
+                        <span id="adultCount">1</span>
+                        <button class="count-btn" onclick="changeCount('adult', 1)">+</button>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <label class="me-2">Children:</label>
+                        <button class="count-btn" onclick="changeCount('child', -1)">-</button>
+                        <span id="childCount">0</span>
+                        <button class="count-btn" onclick="changeCount('child', 1)">+</button>
+                    </div>
+
+                    <!-- Display Total Amount -->
+                    <h5>Total Amount: ₹<span id="totalAmount">0</span></h5>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="calculateAmount()">Calculate Amount</button>
+                    <button type="button" class="btn btn-success" onclick="proceedToPayment()" disabled id="proceedBtn">Proceed to Payment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS & jQuery (Required for modal functionality) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Define Pricing
+        const adultPrice = 30000; // Price per adult
+        const childPrice = 20000; // Price per child
+        let adults = 1, children = 0;
+
+        // Function to Update Passenger Count
+        function changeCount(type, change) {
+            let countSpan = document.getElementById(`${type}Count`);
+            let currentValue = parseInt(countSpan.innerText);
+
+            if (currentValue + change >= 0) {
+                countSpan.innerText = currentValue + change;
+                if (type === "adult") {
+                    adults = currentValue + change;
+                } else {
+                    children = currentValue + change;
+                }
+            }
+        }
+
+        // Function to Calculate Total Amount
+        function calculateAmount() {
+            let total = (adults * adultPrice) + (children * childPrice);
+            document.getElementById("totalAmount").innerText = total;
+            
+            // Enable Proceed to Payment Button
+            document.getElementById("proceedBtn").disabled = false;
+        }
+
+        // Function to Proceed to Payment
+        function proceedToPayment() {
+            alert(`Proceeding to payment for ₹${adults * adultPrice + children * childPrice}`);
+            // Redirect to payment page or integrate Razorpay/Paytm here
+        }
+    </script>
+
+</body>
+</html>

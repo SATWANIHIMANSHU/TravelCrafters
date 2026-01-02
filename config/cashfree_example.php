@@ -1,0 +1,5 @@
+<?php
+define("CASHFREE_APP_ID", "YOUR_REAL_APP_ID");
+define("CASHFREE_SECRET_KEY", "YOUR_REAL_SECRET_KEY");
+define("CASHFREE_ENV", "TEST"); // or PROD
+?>

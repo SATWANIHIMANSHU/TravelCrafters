@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Management</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+        <button class="btn btn-primary mb-3" id="toggleView">Switch to Add Destination</button>
+
+        <!-- Destination Form -->
+        <div id="destinationForm" style="display: none;">
+            <h4>Add Destination</h4>
+            <form id="addDestinationForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Destination Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea class="form-control" id="description" name="description" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="image">Image</label>
+                    <input type="file" class="form-control" id="image" name="image" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="display_type">Display Type</label>
+                    <select class="form-control" id="display_type" name="display_type" required>
+                        <option value="featured">Featured</option>
+                        <option value="normal">Normal</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success">Add Destination</button>
+            </form>
+        </div>
+
+        <!-- Destination Table -->
+        <div id="destinationTable">
+            <h4>Destinations</h4>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Display Type</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="destinationData">
+                    <!-- Data will be loaded via AJAX -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            loadDestinations(); // Load destinations on page load
+
+            // Toggle between form and table
+            $("#toggleView").click(function () {
+                $("#destinationForm").toggle();
+                $("#destinationTable").toggle();
+                $(this).text($(this).text() == "Switch to Add Destination" ? "Switch to Destination List" : "Switch to Add Destination");
+            });
+
+            // AJAX Form Submission
+            $("#addDestinationForm").submit(function (e) {
+                e.preventDefault();
+
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: "insert_destination.php",
+                    type: "POST",
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        alert(response);
+                        $("#addDestinationForm")[0].reset(); // Reset form
+                        loadDestinations(); // Reload table
+                        $("#destinationForm").hide();
+                        $("#destinationTable").show();
+                        $("#toggleView").text("Switch to Add Destination");
+                    }
+                });
+            });
+
+            // Load Destinations using AJAX
+            function loadDestinations() {
+                $.ajax({
+                    url: "fetch_destinations.php",
+                    type: "GET",
+                    success: function (data) {
+                        $("#destinationData").html(data);
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
