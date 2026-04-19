@@ -72,3 +72,17 @@ Travel Crafters is a comprehensive and feature-rich Tours & Travels web applicat
 
 ```bash
 git clone https://github.com/your-username/TravelCrafters.git
+
+---
+
+## 🔗 Live Demo
+
+👉 Currently not deployed. Can be demonstrated locally.
+
+---
+
+## 📷 Screenshots
+
+Home Page
+
+
