@@ -76,10 +76,122 @@ Travel Crafters is a comprehensive and feature-rich Tours & Travels web applicat
 
 ## 📷 Screenshots
 
-Home Page
+### 🏠Home Page
 
 ![Home Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/004f5e5b956d90ffea5341e79063bd5e4c3a39f9/Screenshots/Screenshot%20(1366).png)
 
 ---
+### 📦 Packages Listing Page
 
+![Packages Listing Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1371).png)
 
+---
+### 📄 Package Details Page
+
+![Package Details Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1375).png)
+
+---
+### 📄 Package Details Page
+
+![Package Details Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1376).png)
+
+---
+
+### 📄 Package Details Page
+
+![Package Details Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1377).png)
+
+---
+
+### 📄 Package Details Page
+
+![Package Details Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1378).png)
+
+---
+
+### 📅 Select Date / Availability Modal
+
+![Select Date / Availability Modal](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1379).png)
+
+---
+
+### 🧾 Booking Page
+
+![Booking Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1380).png)
+
+---
+
+### 💳 Payment Page
+
+![Payment Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1382).png)
+
+---
+
+### 💳 Payment Page
+
+![Payment Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1383).png)
+
+---
+
+### ✅ Payment Confirmation Page
+
+![Payment Confirmation Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1385).png)
+
+---
+
+### 👤 User Dashboard (My Bookings)
+
+![User Dashboard (My Bookings)](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1388).png)
+
+---
+
+### 📜 Booking Details Page
+
+![Booking Details Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshots/Screenshot%20(1389).png)
+
+---
+
+### 🔐 Login Page
+
+![Login Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1363).png)
+
+---
+### 🔐 Signup Page
+
+![Signup Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1364).png)
+
+---
+
+### 🔑 Forgot Password Page
+
+![Forgot Password Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshot%20(1440).png)
+
+---
+
+![Forgot Password Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshot%20(1441).png)
+
+---
+
+![Forgot Password Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshot%20(1442).png)
+
+---
+
+![Forgot Password Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshot%20(1443).png)
+
+---
+
+![Forgot Password Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshot%20(1444).png)
+
+---
+
+### 👤 User Dashboard 
+
+![User Dashboard](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/d63adf76473fc7596e7654a1e9db558df132102e/Screenshots/Screenshot%20(1390).png)
+
+---
+
+### 📩 Contact / Inquiry Page
+
+![Contact / Inquiry Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshots/Screenshot%20(1373).png)
+
+---
