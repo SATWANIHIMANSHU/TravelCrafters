@@ -195,3 +195,51 @@ Travel Crafters is a comprehensive and feature-rich Tours & Travels web applicat
 ![Contact / Inquiry Page](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/bad5d94bb34e6cea8672546b1f7c8966bfcd7b77/Screenshots/Screenshot%20(1373).png)
 
 ---
+
+
+### 📊 Admin Dashboard
+
+![Admin Dashboard](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1399).png)
+
+---
+
+### 📦 Package Management
+
+![Package](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1410).png)
+
+---
+
+### ➕ Add / Update Package
+
+![Add Package](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1405).png)
+
+---
+
+![Add Package](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1406).png)
+
+---
+
+![Add Package](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1407).png)
+
+---
+
+![Add Package](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1408).png)
+
+---
+
+![Add Package](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1409).png)
+
+---
+
+### 📖 Booking Management
+
+![Booking Management](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1429).png)
+
+---
+
+### 💳 Payment Management
+
+![Payment Management](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/190711f26d59e7062d4ba3b7c7e3164a0746ce20/Screenshots/Screenshot%20(1431).png)
+
+---
+
