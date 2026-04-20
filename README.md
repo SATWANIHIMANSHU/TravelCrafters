@@ -78,7 +78,7 @@ Travel Crafters is a comprehensive and feature-rich Tours & Travels web applicat
 
 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page]([screenshots/home.png](https://github.com/SATWANIHIMANSHU/TravelCrafters/blob/004f5e5b956d90ffea5341e79063bd5e4c3a39f9/Screenshots/Screenshot%20(1366).png))
 
 ---
 
