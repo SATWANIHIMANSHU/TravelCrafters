@@ -243,3 +243,36 @@ Travel Crafters is a comprehensive and feature-rich Tours & Travels web applicat
 
 ---
 
+
+## 🧠 System Overview
+
+- The application follows a client-server architecture where the frontend interacts with the backend through HTTP requests.  
+- The frontend is built using HTML, CSS, JavaScript, and Bootstrap to provide a responsive and user-friendly interface.  
+- The backend is developed using PHP, which handles core functionalities such as authentication, booking logic, and payment processing.  
+- MySQL database is used to store and manage data related to users, destinations, packages, bookings, payments, and feedback.  
+- AJAX is used to provide real-time seat availability without reloading the page.  
+- The system includes separate modules for users and administrators to ensure proper access control and management.
+
+---
+
+## 🔐 Security Features
+
+- Session-based authentication is implemented to ensure secure user login and access control.  
+- Passwords are securely stored and managed to prevent unauthorized access.  
+- Token-based password reset functionality is implemented using email verification.  
+- Input validation and sanitization are applied to prevent SQL Injection and other common vulnerabilities.  
+- Secure payment gateway integration ensures safe transaction processing.  
+- Access control is maintained between user and admin roles to restrict unauthorized actions.
+
+---
+
+## 🚀 Future Enhancements
+
+- Integration with external APIs for flight, train, and hotel bookings.  
+- AI-based travel recommendation system based on user preferences.  
+- Multi-language and multi-currency support for global users.  
+- Email and SMS notifications for booking confirmation and updates.  
+- Downloadable invoice generation after successful booking.  
+- Mobile application version for better accessibility.
+
+---
